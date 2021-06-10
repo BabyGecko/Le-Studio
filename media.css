@@ -1,0 +1,31 @@
+@media(max-width: 600px){
+	.menu{
+		width: 100%;
+		height: auto;
+		position: static;
+		box-sizing: border-box;
+	}
+	.main{
+		width: 100%;
+		margin: 0;
+		padding: 0 15px;
+		box-sizing: border-box;
+	}
+	.img img{
+		max-width: 100%;
+		margin: 10px 0px;
+	}
+	h1{
+		font-size: 40px;
+	}
+	h2{
+		font-size: 30px;
+	}
+	.member{
+		width: 90%;
+	}
+	.deal{
+		width: 100%;
+		margin-bottom: 15px;
+	}
+}

@@ -1,0 +1,155 @@
+body{
+	margin: 0;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+.menu{
+	width: 187 px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #45105D;
+	padding: 10px 20px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	position: fixed;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+.menu a{
+	width: 100%;
+	display: block;
+	padding: 8px 16px;
+	text-decoration: none;
+	color: #fff;
+	box-sizing: border-box;
+}
+.menu a:hover{
+	background-color: #fff;
+	color: #000;
+}
+.main{
+	margin-left: 360px;
+	margin-right: 40px;
+	margin-top: 80px;
+}
+h1{
+	font-size: 64px;
+	font-weight: 400;
+}
+h2{
+	color: #45105D;
+	font-size: 48px;
+	font-weight: 400;
+	margin: 10px 0;
+}
+hr{
+	border: 5px solid #45105D;
+	border-radius: 4px;
+	margin: 20px 0;
+}
+.img img{
+	max-width: 500px;
+	margin: 10px;
+	border-radius: 10px;
+	opacity: 75%;
+}
+.member{
+	padding: 8px;
+	width: 30%;
+	display: inline-block;
+}
+.member img{
+	width: 100%;
+	border-radius: 10px;
+}
+.member .description{
+	background-color: #f1f1f1;
+	border-radius: 5px;
+	padding: 2px 16px 5px;
+}
+.member .position{
+	color: grey;
+}
+.deal{
+	width: 45%;
+	padding: 0 8px;
+	min-width: 200px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	box-sizing: border-box;
+}
+.deal ul{
+	background-color: #f1f1f1;
+	border-radius: 10px;
+	padding: 0;
+	margin: 0;
+}
+.deal li{
+	list-style: none;
+	border-bottom: 1px solid #dddddd;
+	padding: 16px 0;
+	border-radius: 10px;
+}
+.deal .name{
+	color: #ffffff;
+	background-color: #45015d;
+	font-size: 24px;
+	padding: 32px 0;
+}
+.deal.pro .name{
+background-color: #f44336;
+}
+.deal button{
+	color: #fff;
+	background-color: #f44336;
+	border-radius: 20px;
+	padding: 15px 20px;
+	border: none;
+	outline: none;
+	cursor: help;
+	font-size: 16px;
+}
+.deal.pro button{
+background-color: #45054d;
+color: #fff;
+}
+.deal button:hover{
+	color: #000;
+	font-size: 18px;
+	background-color: #fff;
+}
+#contact input{
+	border: 1px solid #cccccc;
+	padding: 8px;
+	display: block;
+	width: 100%;
+	outline: none;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+#contact button{
+	border: none;
+	outline: none;
+	color: #fff;
+	background-color: #45015d;
+	border-radius: 8px;
+	padding: 12px 24px;
+	display: block;
+	width: 100%;
+	cursor: pointer;
+	font-family: inherit;
+	font-size: 16px;
+}
+#contact button:hover{
+	color: #000;
+	background-color: #cccccc;
+}
+#footer{
+	padding: 32px 58px;
+	background-color: #f1f1f1;
+	text-align: right;
+	margin-top: 60px;
+}
